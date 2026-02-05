@@ -8,6 +8,7 @@ const passport = require('./config/passport');
 // const { createClient } = require('@supabase/supabase-js');
 
 const app = express();
+app.set('trust proxy', 1);
 const port = process.env.PORT || 3001;
 
 // Middleware
@@ -37,9 +38,10 @@ app.use(session({
   resave: false,
   saveUninitialized: false,
   cookie: {
-    secure: false, // Set to true in production with HTTPS
+    secure: process.env.NODE_ENV === 'production',
     httpOnly: true,
-    maxAge: 24 * 60 * 60 * 1000 // 24 hours
+    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
+    maxAge: 24 * 60 * 60 * 1000
   }
 }));
 app.use(passport.initialize());
