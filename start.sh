@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Mata processos antigos para evitar EADDRINUSE
-fuser -k 3000/tcp
-fuser -k 3001/tcp
-
 echo "--- Iniciando Setup de Produção ---"
 
 # 1. Iniciar Backend
@@ -11,18 +7,22 @@ echo "Iniciando Backend na porta 3001..."
 cd /app/backend
 node src/app.js &
 
-# 2. Verificar e Buildar Frontend
+# 2. Preparar Frontend
 echo "Preparando Frontend..."
 cd /app/frontend
 
-if [ ! -d ".next" ]; then
-    echo "Pasta .next NÃO encontrada. Iniciando build agora..."
-    npm run build
+# Deleta a pasta .next se ela existir para evitar o erro de build corrompido
+if [ -d ".next" ]; then
+    echo "Limpando build antigo corrompido..."
+    rm -rf .next
 fi
+
+echo "Iniciando novo build do Next.js..."
+npm run build
 
 echo "Iniciando Frontend na porta 3000..."
 PORT=3000 HOSTNAME=0.0.0.0 npm start &
 
-# 3. Esperar processos (Sem o -n para evitar erro de shell)
+# 3. Esperar processos (wait simples sem -n)
 echo "Sistema online. Aguardando processos..."
 wait

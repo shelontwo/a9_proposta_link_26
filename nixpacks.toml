@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["nodejs_22", "bash"]
+nixPkgs = ["nodejs_22", "bash", "ps"]
 
 [phases.install]
 cmds = [
@@ -9,4 +9,4 @@ cmds = [
 ]
 
 [start]
-cmd = "./start.sh"
+cmd = "bash ./start.sh"
