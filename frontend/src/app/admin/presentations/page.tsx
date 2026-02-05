@@ -50,8 +50,8 @@ export default function PresentationsPage() {
   const fetchData = async () => {
     try {
       const [clientsRes, presRes] = await Promise.all([
-        fetch('http://localhost:3001/api/clients', { credentials: 'include' }),
-        fetch('http://localhost:3001/api/presentations', { credentials: 'include' })
+        fetch('https://api-a9-tracker.f7g8uz.easypanel.host/api/clients', { credentials: 'include' }),
+        fetch('https://api-a9-tracker.f7g8uz.easypanel.host/api/presentations', { credentials: 'include' })
       ]);
       const clientsData = await clientsRes.json();
       const presData = await presRes.json();
@@ -71,8 +71,8 @@ export default function PresentationsPage() {
 
     try {
       const url = editingPresentation
-        ? `http://localhost:3001/api/presentations/${editingPresentation.id}`
-        : 'http://localhost:3001/api/presentations';
+        ? `https://api-a9-tracker.f7g8uz.easypanel.host/api/presentations/${editingPresentation.id}`
+        : 'https://api-a9-tracker.f7g8uz.easypanel.host/api/presentations';
       const method = editingPresentation ? 'PUT' : 'POST';
 
       const res = await fetch(url, {
@@ -109,7 +109,7 @@ export default function PresentationsPage() {
   const handleDelete = async (id: string) => {
     if (!confirm('Tem certeza que deseja excluir esta apresentação? Os dados de rastreamento serão mantidos para histórico, mas o link deixará de funcionar.')) return;
     try {
-      const res = await fetch(`http://localhost:3001/api/presentations/${id}`, {
+      const res = await fetch(`https://api-a9-tracker.f7g8uz.easypanel.host/api/presentations/${id}`, {
         method: 'DELETE',
         credentials: 'include'
       });

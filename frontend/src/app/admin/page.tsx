@@ -14,7 +14,7 @@ export default function AdminDashboard() {
   useEffect(() => {
     async function fetchStats() {
       try {
-        const res = await fetch('http://localhost:3001/api/stats/summary', {
+        const res = await fetch('https://api-a9-tracker.f7g8uz.easypanel.host/api/stats/summary', {
           credentials: 'include'
         });
         const data = await res.json();

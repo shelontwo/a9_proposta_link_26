@@ -20,7 +20,7 @@ export default function UsersPage() {
 
   const fetchUsers = async () => {
     try {
-      const res = await fetch('http://localhost:3001/api/users');
+      const res = await fetch('https://api-a9-tracker.f7g8uz.easypanel.host/api/users');
       const data = await res.json();
       setUsers(data);
     } catch (error) {
@@ -34,8 +34,8 @@ export default function UsersPage() {
     e.preventDefault();
     try {
       const url = editingUser
-        ? `http://localhost:3001/api/users/${editingUser.id}`
-        : 'http://localhost:3001/api/users';
+        ? `https://api-a9-tracker.f7g8uz.easypanel.host/api/users/${editingUser.id}`
+        : 'https://api-a9-tracker.f7g8uz.easypanel.host/api/users';
       const method = editingUser ? 'PUT' : 'POST';
 
       const res = await fetch(url, {
@@ -66,7 +66,7 @@ export default function UsersPage() {
   const handleDelete = async (id: string) => {
     if (!confirm('Tem certeza que deseja excluir este usuário?')) return;
     try {
-      const res = await fetch(`http://localhost:3001/api/users/${id}`, {
+      const res = await fetch(`https://api-a9-tracker.f7g8uz.easypanel.host/api/users/${id}`, {
         method: 'DELETE'
       });
       if (res.ok) {

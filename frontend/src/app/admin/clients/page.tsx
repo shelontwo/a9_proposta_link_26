@@ -21,7 +21,7 @@ export default function ClientsPage() {
 
   const fetchClients = async () => {
     try {
-      const res = await fetch('http://localhost:3001/api/clients', {
+      const res = await fetch('https://api-a9-tracker.f7g8uz.easypanel.host/api/clients', {
         credentials: 'include'
       });
       const data = await res.json();
@@ -38,8 +38,8 @@ export default function ClientsPage() {
     e.preventDefault();
     try {
       const url = editingClient
-        ? `http://localhost:3001/api/clients/${editingClient.id}`
-        : 'http://localhost:3001/api/clients';
+        ? `https://api-a9-tracker.f7g8uz.easypanel.host/api/clients/${editingClient.id}`
+        : 'https://api-a9-tracker.f7g8uz.easypanel.host/api/clients';
       const method = editingClient ? 'PUT' : 'POST';
 
       const res = await fetch(url, {
@@ -71,7 +71,7 @@ export default function ClientsPage() {
   const handleDelete = async (id: string) => {
     if (!confirm('Tem certeza que deseja excluir este cliente? Toda a história será preservada no banco, mas o cliente não aparecerá mais nas listagens.')) return;
     try {
-      const res = await fetch(`http://localhost:3001/api/clients/${id}`, {
+      const res = await fetch(`https://api-a9-tracker.f7g8uz.easypanel.host/api/clients/${id}`, {
         method: 'DELETE',
         credentials: 'include'
       });

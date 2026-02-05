@@ -28,7 +28,7 @@ export default function AnalyticsPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:3001/api/stats/${token}`)
+    fetch(`https://api-a9-tracker.f7g8uz.easypanel.host/api/stats/${token}`)
       .then(res => res.json())
       .then(setData)
       .finally(() => setLoading(false));

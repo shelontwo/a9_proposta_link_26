@@ -99,7 +99,7 @@ export default function ViewerPage() {
 
   const fetchPresentation = async () => {
     try {
-      const res = await fetch(`http://localhost:3001/api/stats/${token}`);
+      const res = await fetch(`https://api-a9-tracker.f7g8uz.easypanel.host/api/stats/${token}`);
       const data = await res.json();
       if (data.presentation) {
         setPresentation(data.presentation);
@@ -120,7 +120,7 @@ export default function ViewerPage() {
 
       // If it's a Google Slides link, route through our proxy
       if (url.includes('docs.google.com/presentation')) {
-        finalUrl = `http://localhost:3001/api/proxy-pdf?url=${encodeURIComponent(url)}`;
+        finalUrl = `https://api-a9-tracker.f7g8uz.easypanel.host/api/proxy-pdf?url=${encodeURIComponent(url)}`;
       }
 
       const loadingTask = window.pdfjsLib.getDocument(finalUrl);
@@ -166,7 +166,7 @@ export default function ViewerPage() {
   }, [pdf, currentPage, isFullscreen]);
 
   const trackEvent = (type: string, extra = {}) => {
-    fetch('http://localhost:3001/api/track/' + type.toLowerCase(), {
+    fetch('https://api-a9-tracker.f7g8uz.easypanel.host/api/track/' + type.toLowerCase(), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ token, ...extra })

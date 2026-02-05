@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { LogOut, LayoutDashboard, Users, Presentation, ShieldCheck, User } from 'lucide-react';
 import ProtectedRoute from '@/components/ProtectedRoute';
 
-const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:3001';
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://api-a9-tracker.f7g8uz.easypanel.host/';
 
 interface UserData {
   id: string;
