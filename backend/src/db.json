@@ -1,0 +1,1138 @@
+{
+  "clients": [],
+  "presentations": [],
+  "logs": [
+    {
+      "id": "1770227394383",
+      "timestamp": "2026-02-04T17:49:54.383Z",
+      "type": "COMPLETE",
+      "token": "ufh0v7x1"
+    },
+    {
+      "id": "1770229751308",
+      "timestamp": "2026-02-04T18:29:11.308Z",
+      "type": "OPEN",
+      "token": "gqkge0s6",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770229757013",
+      "timestamp": "2026-02-04T18:29:17.013Z",
+      "type": "OPEN",
+      "token": "gqkge0s6",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770232621254",
+      "timestamp": "2026-02-04T19:17:01.254Z",
+      "type": "OPEN",
+      "token": "hqlcmjji",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770232778539",
+      "timestamp": "2026-02-04T19:19:38.539Z",
+      "type": "OPEN",
+      "token": "hqlcmjji",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770233111103",
+      "timestamp": "2026-02-04T19:25:11.103Z",
+      "type": "OPEN",
+      "token": "hqlcmjji",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770234172137",
+      "timestamp": "2026-02-04T19:42:52.137Z",
+      "type": "OPEN",
+      "token": "j6ftks52",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770234183335",
+      "timestamp": "2026-02-04T19:43:03.335Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 1,
+      "duration": 26542
+    },
+    {
+      "id": "1770234184860",
+      "timestamp": "2026-02-04T19:43:04.860Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 2,
+      "duration": 1527
+    },
+    {
+      "id": "1770234186155",
+      "timestamp": "2026-02-04T19:43:06.155Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 3,
+      "duration": 1294
+    },
+    {
+      "id": "1770234189265",
+      "timestamp": "2026-02-04T19:43:09.265Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 4,
+      "duration": 3104
+    },
+    {
+      "id": "1770234190557",
+      "timestamp": "2026-02-04T19:43:10.557Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 5,
+      "duration": 1295
+    },
+    {
+      "id": "1770234191853",
+      "timestamp": "2026-02-04T19:43:11.853Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 6,
+      "duration": 1295
+    },
+    {
+      "id": "1770234192868",
+      "timestamp": "2026-02-04T19:43:12.868Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 7,
+      "duration": 1015
+    },
+    {
+      "id": "1770234193435",
+      "timestamp": "2026-02-04T19:43:13.435Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 8,
+      "duration": 567
+    },
+    {
+      "id": "1770234195291",
+      "timestamp": "2026-02-04T19:43:15.291Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 9,
+      "duration": 1848
+    },
+    {
+      "id": "1770234198906",
+      "timestamp": "2026-02-04T19:43:18.906Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 10,
+      "duration": 3622
+    },
+    {
+      "id": "1770234200809",
+      "timestamp": "2026-02-04T19:43:20.809Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 11,
+      "duration": 1896
+    },
+    {
+      "id": "1770234201684",
+      "timestamp": "2026-02-04T19:43:21.684Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 12,
+      "duration": 879
+    },
+    {
+      "id": "1770234202389",
+      "timestamp": "2026-02-04T19:43:22.389Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 13,
+      "duration": 703
+    },
+    {
+      "id": "1770234202960",
+      "timestamp": "2026-02-04T19:43:22.961Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 14,
+      "duration": 574
+    },
+    {
+      "id": "1770234203393",
+      "timestamp": "2026-02-04T19:43:23.393Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 15,
+      "duration": 432
+    },
+    {
+      "id": "1770234204277",
+      "timestamp": "2026-02-04T19:43:24.277Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 16,
+      "duration": 881
+    },
+    {
+      "id": "1770234205013",
+      "timestamp": "2026-02-04T19:43:25.013Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 17,
+      "duration": 735
+    },
+    {
+      "id": "1770234206161",
+      "timestamp": "2026-02-04T19:43:26.161Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 18,
+      "duration": 1143
+    },
+    {
+      "id": "1770234206909",
+      "timestamp": "2026-02-04T19:43:26.909Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 19,
+      "duration": 751
+    },
+    {
+      "id": "1770234208261",
+      "timestamp": "2026-02-04T19:43:28.261Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 20,
+      "duration": 1351
+    },
+    {
+      "id": "1770234208271",
+      "timestamp": "2026-02-04T19:43:28.271Z",
+      "type": "COMPLETE",
+      "token": "j6ftks52"
+    },
+    {
+      "id": "1770234377451",
+      "timestamp": "2026-02-04T19:46:17.451Z",
+      "type": "OPEN",
+      "token": "j6ftks52",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770234504336",
+      "timestamp": "2026-02-04T19:48:24.336Z",
+      "type": "OPEN",
+      "token": "j6ftks52",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770234517121",
+      "timestamp": "2026-02-04T19:48:37.121Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 1,
+      "duration": 27427
+    },
+    {
+      "id": "1770234517268",
+      "timestamp": "2026-02-04T19:48:37.268Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 2,
+      "duration": 157
+    },
+    {
+      "id": "1770234517432",
+      "timestamp": "2026-02-04T19:48:37.433Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 3,
+      "duration": 161
+    },
+    {
+      "id": "1770234517580",
+      "timestamp": "2026-02-04T19:48:37.580Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 4,
+      "duration": 149
+    },
+    {
+      "id": "1770234517708",
+      "timestamp": "2026-02-04T19:48:37.708Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 5,
+      "duration": 127
+    },
+    {
+      "id": "1770234517876",
+      "timestamp": "2026-02-04T19:48:37.876Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 6,
+      "duration": 167
+    },
+    {
+      "id": "1770234517996",
+      "timestamp": "2026-02-04T19:48:37.996Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 7,
+      "duration": 119
+    },
+    {
+      "id": "1770234518164",
+      "timestamp": "2026-02-04T19:48:38.164Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 8,
+      "duration": 167
+    },
+    {
+      "id": "1770234518332",
+      "timestamp": "2026-02-04T19:48:38.332Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 9,
+      "duration": 168
+    },
+    {
+      "id": "1770234519196",
+      "timestamp": "2026-02-04T19:48:39.196Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 10,
+      "duration": 862
+    },
+    {
+      "id": "1770234519377",
+      "timestamp": "2026-02-04T19:48:39.377Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 11,
+      "duration": 181
+    },
+    {
+      "id": "1770234519581",
+      "timestamp": "2026-02-04T19:48:39.581Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 12,
+      "duration": 200
+    },
+    {
+      "id": "1770234519762",
+      "timestamp": "2026-02-04T19:48:39.762Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 13,
+      "duration": 185
+    },
+    {
+      "id": "1770234519928",
+      "timestamp": "2026-02-04T19:48:39.928Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 14,
+      "duration": 165
+    },
+    {
+      "id": "1770234520096",
+      "timestamp": "2026-02-04T19:48:40.096Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 15,
+      "duration": 167
+    },
+    {
+      "id": "1770234520272",
+      "timestamp": "2026-02-04T19:48:40.272Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 16,
+      "duration": 175
+    },
+    {
+      "id": "1770234520446",
+      "timestamp": "2026-02-04T19:48:40.446Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 17,
+      "duration": 174
+    },
+    {
+      "id": "1770234520576",
+      "timestamp": "2026-02-04T19:48:40.576Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 18,
+      "duration": 130
+    },
+    {
+      "id": "1770234520736",
+      "timestamp": "2026-02-04T19:48:40.736Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 19,
+      "duration": 159
+    },
+    {
+      "id": "1770234520896",
+      "timestamp": "2026-02-04T19:48:40.896Z",
+      "type": "STAY",
+      "token": "j6ftks52",
+      "slideIndex": 20,
+      "duration": 159
+    },
+    {
+      "id": "1770234520900",
+      "timestamp": "2026-02-04T19:48:40.900Z",
+      "type": "COMPLETE",
+      "token": "j6ftks52"
+    },
+    {
+      "id": "1770234987750",
+      "timestamp": "2026-02-04T19:56:27.750Z",
+      "type": "OPEN",
+      "token": "it64cl0w",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770234992759",
+      "timestamp": "2026-02-04T20:29:20.299Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 1,
+      "duration": 2152
+    },
+    {
+      "id": "1770235036496",
+      "timestamp": "2026-02-04T20:29:21.596Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 2,
+      "duration": 1300
+    },
+    {
+      "id": "1770235043830",
+      "timestamp": "2026-02-04T19:57:23.830Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 3,
+      "duration": 1258
+    },
+    {
+      "id": "1770235044530",
+      "timestamp": "2026-02-04T19:57:24.530Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 4,
+      "duration": 697
+    },
+    {
+      "id": "1770235049556",
+      "timestamp": "2026-02-04T19:58:56.639Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 5,
+      "duration": 92108
+    },
+    {
+      "id": "1770235136786",
+      "timestamp": "2026-02-04T19:58:56.786Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 6,
+      "duration": 150
+    },
+    {
+      "id": "1770235136931",
+      "timestamp": "2026-02-04T19:58:56.931Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 7,
+      "duration": 144
+    },
+    {
+      "id": "1770235137083",
+      "timestamp": "2026-02-04T19:58:57.083Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 8,
+      "duration": 152
+    },
+    {
+      "id": "1770235137235",
+      "timestamp": "2026-02-04T19:58:57.235Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 9,
+      "duration": 152
+    },
+    {
+      "id": "1770235137379",
+      "timestamp": "2026-02-04T19:58:57.379Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 10,
+      "duration": 143
+    },
+    {
+      "id": "1770235137532",
+      "timestamp": "2026-02-04T19:58:57.532Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 11,
+      "duration": 154
+    },
+    {
+      "id": "1770235137675",
+      "timestamp": "2026-02-04T19:58:57.675Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 12,
+      "duration": 142
+    },
+    {
+      "id": "1770235137811",
+      "timestamp": "2026-02-04T19:58:57.811Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 13,
+      "duration": 136
+    },
+    {
+      "id": "1770235137962",
+      "timestamp": "2026-02-04T19:58:57.962Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 14,
+      "duration": 152
+    },
+    {
+      "id": "1770235138106",
+      "timestamp": "2026-02-04T19:58:58.106Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 15,
+      "duration": 144
+    },
+    {
+      "id": "1770235138251",
+      "timestamp": "2026-02-04T19:58:58.251Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 16,
+      "duration": 144
+    },
+    {
+      "id": "1770235138402",
+      "timestamp": "2026-02-04T19:58:58.402Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 17,
+      "duration": 152
+    },
+    {
+      "id": "1770235138538",
+      "timestamp": "2026-02-04T19:58:58.538Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 18,
+      "duration": 136
+    },
+    {
+      "id": "1770235138706",
+      "timestamp": "2026-02-04T19:58:58.706Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 19,
+      "duration": 168
+    },
+    {
+      "id": "1770235138858",
+      "timestamp": "2026-02-04T19:59:06.246Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 20,
+      "duration": 960
+    },
+    {
+      "id": "1770235138862",
+      "timestamp": "2026-02-04T19:58:58.862Z",
+      "type": "COMPLETE",
+      "token": "it64cl0w"
+    },
+    {
+      "id": "1770235143871",
+      "timestamp": "2026-02-04T20:07:06.261Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 21,
+      "duration": 480017
+    },
+    {
+      "id": "1770235146257",
+      "timestamp": "2026-02-04T19:59:06.257Z",
+      "type": "COMPLETE",
+      "token": "it64cl0w"
+    },
+    {
+      "id": "1770235791701",
+      "timestamp": "2026-02-04T20:09:51.701Z",
+      "type": "OPEN",
+      "token": "it64cl0w",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770236953962",
+      "timestamp": "2026-02-04T20:29:22.904Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 3,
+      "duration": 1310
+    },
+    {
+      "id": "1770236954136",
+      "timestamp": "2026-02-04T20:29:23.523Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 4,
+      "duration": 616
+    },
+    {
+      "id": "1770236954304",
+      "timestamp": "2026-02-04T20:29:24.284Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 5,
+      "duration": 759
+    },
+    {
+      "id": "1770236954463",
+      "timestamp": "2026-02-05T09:21:54.057Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 6,
+      "duration": 46349773
+    },
+    {
+      "id": "1770236954631",
+      "timestamp": "2026-02-04T20:29:16.724Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 7,
+      "duration": 201
+    },
+    {
+      "id": "1770236954800",
+      "timestamp": "2026-02-04T20:29:16.519Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 8,
+      "duration": 191
+    },
+    {
+      "id": "1770236955137",
+      "timestamp": "2026-02-04T20:29:16.330Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 9,
+      "duration": 239
+    },
+    {
+      "id": "1770236956092",
+      "timestamp": "2026-02-04T20:29:16.092Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 10,
+      "duration": 952
+    },
+    {
+      "id": "1770283315165",
+      "timestamp": "2026-02-05T09:21:55.165Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 7,
+      "duration": 1103
+    },
+    {
+      "id": "1770283315921",
+      "timestamp": "2026-02-05T09:21:55.921Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 8,
+      "duration": 759
+    },
+    {
+      "id": "1770283316609",
+      "timestamp": "2026-02-05T09:21:56.609Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 9,
+      "duration": 687
+    },
+    {
+      "id": "1770283317143",
+      "timestamp": "2026-02-05T09:21:57.143Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 10,
+      "duration": 535
+    },
+    {
+      "id": "1770283319178",
+      "timestamp": "2026-02-05T09:21:59.178Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 11,
+      "duration": 2032
+    },
+    {
+      "id": "1770283320246",
+      "timestamp": "2026-02-05T09:22:00.246Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 12,
+      "duration": 1063
+    },
+    {
+      "id": "1770283321370",
+      "timestamp": "2026-02-05T09:22:01.370Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 13,
+      "duration": 1128
+    },
+    {
+      "id": "1770283326381",
+      "timestamp": "2026-02-05T09:48:42.974Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 14,
+      "duration": 1601562
+    },
+    {
+      "id": "1770284133224",
+      "timestamp": "2026-02-05T09:35:33.224Z",
+      "type": "OPEN",
+      "token": "it64cl0w",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770284138242",
+      "timestamp": "2026-02-05T10:54:20.322Z",
+      "type": "STAY",
+      "token": "it64cl0w",
+      "slideIndex": 1,
+      "duration": 22464
+    },
+    {
+      "id": "1770284821822",
+      "timestamp": "2026-02-05T09:47:01.822Z",
+      "type": "OPEN",
+      "token": "it64cl0w",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770284975975",
+      "timestamp": "2026-02-05T09:49:35.975Z",
+      "type": "OPEN",
+      "token": "it64cl0w",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770284976360",
+      "timestamp": "2026-02-05T09:49:36.360Z",
+      "type": "OPEN",
+      "token": "it64cl0w",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770284976371",
+      "timestamp": "2026-02-05T09:49:36.371Z",
+      "type": "OPEN",
+      "token": "it64cl0w",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770287146283",
+      "timestamp": "2026-02-05T10:25:46.283Z",
+      "type": "OPEN",
+      "token": "it64cl0w",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770287484168",
+      "timestamp": "2026-02-05T10:31:24.168Z",
+      "type": "OPEN",
+      "token": "lyhczaxy",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770287487557",
+      "timestamp": "2026-02-05T10:52:58.855Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 1,
+      "duration": 12739
+    },
+    {
+      "id": "1770287489335",
+      "timestamp": "2026-02-05T10:31:29.335Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 2,
+      "duration": 1781
+    },
+    {
+      "id": "1770287494338",
+      "timestamp": "2026-02-05T10:31:37.238Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 3,
+      "duration": 7880
+    },
+    {
+      "id": "1770287497814",
+      "timestamp": "2026-02-05T10:31:37.814Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 4,
+      "duration": 575
+    },
+    {
+      "id": "1770287498745",
+      "timestamp": "2026-02-05T10:31:38.745Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 5,
+      "duration": 951
+    },
+    {
+      "id": "1770287499254",
+      "timestamp": "2026-02-05T10:31:39.254Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 6,
+      "duration": 487
+    },
+    {
+      "id": "1770287499989",
+      "timestamp": "2026-02-05T10:31:39.989Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 7,
+      "duration": 735
+    },
+    {
+      "id": "1770287500529",
+      "timestamp": "2026-02-05T10:31:40.529Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 8,
+      "duration": 535
+    },
+    {
+      "id": "1770287501171",
+      "timestamp": "2026-02-05T10:31:41.171Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 9,
+      "duration": 639
+    },
+    {
+      "id": "1770287502328",
+      "timestamp": "2026-02-05T10:31:42.328Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 10,
+      "duration": 1159
+    },
+    {
+      "id": "1770287507187",
+      "timestamp": "2026-02-05T10:31:47.187Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 11,
+      "duration": 4880
+    },
+    {
+      "id": "1770287508548",
+      "timestamp": "2026-02-05T10:31:48.548Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 12,
+      "duration": 1358
+    },
+    {
+      "id": "1770287511262",
+      "timestamp": "2026-02-05T10:31:51.262Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 13,
+      "duration": 2719
+    },
+    {
+      "id": "1770287512380",
+      "timestamp": "2026-02-05T10:31:52.380Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 14,
+      "duration": 1111
+    },
+    {
+      "id": "1770287513310",
+      "timestamp": "2026-02-05T10:31:53.310Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 15,
+      "duration": 935
+    },
+    {
+      "id": "1770287518962",
+      "timestamp": "2026-02-05T10:32:01.635Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 16,
+      "duration": 8303
+    },
+    {
+      "id": "1770287522741",
+      "timestamp": "2026-02-05T10:32:02.741Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 17,
+      "duration": 1128
+    },
+    {
+      "id": "1770287523636",
+      "timestamp": "2026-02-05T10:32:03.636Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 18,
+      "duration": 894
+    },
+    {
+      "id": "1770287524681",
+      "timestamp": "2026-02-05T10:32:04.681Z",
+      "type": "STAY",
+      "token": "lyhczaxy",
+      "slideIndex": 19,
+      "duration": 1040
+    },
+    {
+      "id": "1770287524685",
+      "timestamp": "2026-02-05T10:32:04.685Z",
+      "type": "COMPLETE",
+      "token": "lyhczaxy"
+    },
+    {
+      "id": "1770288777163",
+      "timestamp": "2026-02-05T10:52:57.163Z",
+      "type": "OPEN",
+      "token": "lyhczaxy",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770288857751",
+      "timestamp": "2026-02-05T10:54:17.751Z",
+      "type": "OPEN",
+      "token": "it64cl0w",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770289272182",
+      "timestamp": "2026-02-05T11:01:12.182Z",
+      "type": "OPEN",
+      "token": "kp3wc260",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770289274595",
+      "timestamp": "2026-02-05T11:05:06.404Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 1,
+      "duration": 17945
+    },
+    {
+      "id": "1770289275207",
+      "timestamp": "2026-02-05T11:05:12.559Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 2,
+      "duration": 6167
+    },
+    {
+      "id": "1770289275608",
+      "timestamp": "2026-02-05T11:05:13.366Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 3,
+      "duration": 806
+    },
+    {
+      "id": "1770289280946",
+      "timestamp": "2026-02-05T11:05:13.974Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 4,
+      "duration": 598
+    },
+    {
+      "id": "1770289325378",
+      "timestamp": "2026-02-05T11:05:15.373Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 6,
+      "duration": 711
+    },
+    {
+      "id": "1770289325542",
+      "timestamp": "2026-02-05T11:39:42.990Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 7,
+      "duration": 2067570
+    },
+    {
+      "id": "1770289330554",
+      "timestamp": "2026-02-05T11:02:22.190Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 8,
+      "duration": 16608
+    },
+    {
+      "id": "1770289342846",
+      "timestamp": "2026-02-05T11:02:22.846Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 9,
+      "duration": 655
+    },
+    {
+      "id": "1770289343597",
+      "timestamp": "2026-02-05T11:02:23.597Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 10,
+      "duration": 760
+    },
+    {
+      "id": "1770289344349",
+      "timestamp": "2026-02-05T11:02:24.349Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 11,
+      "duration": 775
+    },
+    {
+      "id": "1770289344848",
+      "timestamp": "2026-02-05T11:02:24.848Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 12,
+      "duration": 479
+    },
+    {
+      "id": "1770289345310",
+      "timestamp": "2026-02-05T11:02:25.310Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 13,
+      "duration": 487
+    },
+    {
+      "id": "1770289346269",
+      "timestamp": "2026-02-05T11:02:26.269Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 14,
+      "duration": 930
+    },
+    {
+      "id": "1770289346916",
+      "timestamp": "2026-02-05T11:02:26.916Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 15,
+      "duration": 646
+    },
+    {
+      "id": "1770289347637",
+      "timestamp": "2026-02-05T11:02:27.637Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 16,
+      "duration": 742
+    },
+    {
+      "id": "1770289348197",
+      "timestamp": "2026-02-05T11:02:28.197Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 17,
+      "duration": 536
+    },
+    {
+      "id": "1770289348796",
+      "timestamp": "2026-02-05T11:02:28.796Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 18,
+      "duration": 624
+    },
+    {
+      "id": "1770289349385",
+      "timestamp": "2026-02-05T11:02:29.385Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 19,
+      "duration": 590
+    },
+    {
+      "id": "1770289349393",
+      "timestamp": "2026-02-05T11:02:29.393Z",
+      "type": "COMPLETE",
+      "token": "kp3wc260"
+    },
+    {
+      "id": "1770289354968",
+      "timestamp": "2026-02-05T11:02:34.968Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 20,
+      "duration": 5557
+    },
+    {
+      "id": "1770289498696",
+      "timestamp": "2026-02-05T11:04:58.696Z",
+      "type": "OPEN",
+      "token": "kp3wc260",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1770289514694",
+      "timestamp": "2026-02-05T11:05:14.694Z",
+      "type": "STAY",
+      "token": "kp3wc260",
+      "slideIndex": 5,
+      "duration": 696
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin"
+    }
+  ]
+}

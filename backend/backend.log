@@ -1,0 +1,14 @@
+
+> ploomes-tracker-backend@1.0.0 dev /home/mauricio/.gemini/antigravity/scratch/ploomes-tracker/backend
+> nodemon src/app.js
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/app.js`[39m
+Backend Server listening on port 3001
+Stay Event (Update): kp3wc260 - Slide 7 for 2067570ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/app.js`[39m
+Backend Server listening on port 3001
