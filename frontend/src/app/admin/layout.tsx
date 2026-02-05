@@ -67,14 +67,11 @@ export default function AdminLayout({
         {/* Sidebar */}
         <aside className="w-72 border-r border-white/5 bg-brand-darkgray/50 backdrop-blur-xl p-6 flex flex-col gap-8">
           <div className="flex items-center gap-3 pl-2">
-            <div className="w-10 h-10 bg-brand-neon rounded-xl flex items-center justify-center shadow-glow">
-              <ShieldCheck className="text-black" size={24} />
-            </div>
             <h1 className="text-xl font-bold text-white tracking-tighter">
               <img
                 src="https://framerusercontent.com/images/PzCl0ZZKL1UcqxhMTTRf2szX0XU.svg?width=222&height=64"
                 alt="A9 Logo"
-                className="h-9 ml-3 w-auto"
+                className="h-10 ml-3 w-auto"
               />
             </h1>
           </div>

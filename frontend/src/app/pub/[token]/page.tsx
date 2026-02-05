@@ -245,8 +245,22 @@ export default function ViewerPage() {
             </p> */}
           </div>
           <div className="flex items-center gap-4 bg-brand-darkgray/50 backdrop-blur-xl px-4 py-2 rounded-2xl border border-white/5">
-            <span className="text-white font-bold text-sm">Página {currentPage} / {totalPages}</span>
+            <a
+              href="https://a9p.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="https://framerusercontent.com/images/PzCl0ZZKL1UcqxhMTTRf2szX0XU.svg?width=222&height=64"
+                alt="A9 Logo"
+                className="h-10 w-auto"
+              />
+            </a>
           </div>
+          {/* <div className="flex items-center gap-4 bg-brand-darkgray/50 backdrop-blur-xl px-4 py-2 rounded-2xl border border-white/5">
+            <span className="text-white font-bold text-sm">Página {currentPage} / {totalPages}</span>
+          </div> */}
         </div>
       )}
 
@@ -277,10 +291,18 @@ export default function ViewerPage() {
               <ChevronRight />
             </button>
           </div>
+          <div className={`absolute right-4 bottom-4 ${showControls ? 'opacity-100 group-hover:opacity-100' : 'opacity-0'}`}>
+            <button
+              onClick={toggleFullscreen}
+              className={`p-2 rounded-xl hover:bg-white/10 transition-all ml-2 border-l border-white/10 ${isFullscreen ? 'text-brand-neon' : 'text-white'} `}
+            >
+              <Maximize2 size={16} />
+            </button>
+          </div>
         </div>
 
         {/* Floating Controls Bar */}
-        <div className={`absolute left-1/2 -translate-x-1/2 flex items-center gap-2 bg-brand-darkgray/80 backdrop-blur-2xl p-2 rounded-2xl border border-white/10 shadow-glow transition-all duration-500 ${isFullscreen ? (showControls ? 'bottom-8 opacity-100' : 'bottom-0 opacity-0 pointer-events-none') : '-bottom-16'}`}>
+        {/* <div className={`absolute left-1/2 -translate-x-1/2 flex items-center gap-2 bg-brand-darkgray/80 backdrop-blur-2xl p-2 rounded-2xl border border-white/10 shadow-glow transition-all duration-500 ${isFullscreen ? (showControls ? 'bottom-8 opacity-100' : 'bottom-0 opacity-0 pointer-events-none') : '-bottom-16'}`}>
           <button
             onClick={() => handlePageChange(currentPage - 1)}
             disabled={currentPage === 1}
@@ -314,11 +336,11 @@ export default function ViewerPage() {
           >
             <Maximize2 size={18} />
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Footer Branding - Adjusted with A9 Logo */}
-      {!isFullscreen && (
+      {/* {!isFullscreen && (
         <div className="mt-24 z-10 flex flex-col items-center gap-2 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-700">
           <a
             href="https://a9p.com.br"
@@ -337,7 +359,7 @@ export default function ViewerPage() {
             </span>
           </a>
         </div>
-      )}
+      )} */}
     </div>
   );
 }
