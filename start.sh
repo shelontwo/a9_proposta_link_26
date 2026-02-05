@@ -1,23 +1,22 @@
-#!/bin/bash
 
-echo "Iniciando sistema em modo PRODUÇÃO..."
+echo "Limpando processos antigos..."
+fuser -k 3000/tcp
+fuser -k 3001/tcp
 
-# Backend
-cd /app/backend
-# Usar 'node src/app.js' é o ideal para produção
-node src/app.js & 
+echo "Iniciando Backend..."
+cd /app/backend && node src/app.js & 
 
 sleep 5
 
-# Frontend
+echo "Iniciando Frontend..."
 cd /app/frontend
-# Verificando se a pasta build existe por segurança
+
 if [ -d ".next" ]; then
-    echo "Pasta .next encontrada! Iniciando frontend na porta 3000..."
+    echo "Pasta .next confirmada em $(pwd)"
     PORT=3000 HOSTNAME=0.0.0.0 npm start
 else
-    echo "ERRO: Pasta .next não encontrada. O build falhou?"
-    exit 1
+    echo "ERRO CRÍTICO: Pasta .next não existe em $(pwd). Tentando build de emergência..."
+    npm run build && PORT=3000 HOSTNAME=0.0.0.0 npm start
 fi
 
 wait -n
