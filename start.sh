@@ -1,14 +1,11 @@
 #!/bin/bash
 
-# Backend
-echo "Iniciando Backend..."
-cd /app/backend && node src/app.js & 
+echo "Instalando/Iniciando processos..."
 
-# Espera um pouco
-sleep 2
+# Backend
+cd /app/backend && npm start &
 
 # Frontend
-echo "Iniciando Frontend..."
 cd /app/frontend && npm run dev -- --host 0.0.0.0 &
 
 wait -n
