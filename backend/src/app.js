@@ -11,8 +11,23 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 // Middleware
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://a9-a9-tracker.f7g8uz.easypanel.host',
+  process.env.FRONTEND_URL // Pega qualquer valor vindo do Easypanel
+].filter(Boolean); // Remove valores nulos ou vazios
+
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: function (origin, callback) {
+    // Permite requisições sem origem (como mobile apps ou curl)
+    if (!origin) return callback(null, true);
+
+    if (allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Não permitido pela política de CORS'));
+    }
+  },
   credentials: true
 }));
 app.use(cookieParser());
