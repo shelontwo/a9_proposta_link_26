@@ -1,22 +1,28 @@
+#!/bin/bash
 
-echo "Limpando processos antigos..."
+# Mata processos antigos para evitar EADDRINUSE
 fuser -k 3000/tcp
 fuser -k 3001/tcp
 
-echo "Iniciando Backend..."
-cd /app/backend && node src/app.js & 
+echo "--- Iniciando Setup de Produção ---"
 
-sleep 5
+# 1. Iniciar Backend
+echo "Iniciando Backend na porta 3001..."
+cd /app/backend
+node src/app.js &
 
-echo "Iniciando Frontend..."
+# 2. Verificar e Buildar Frontend
+echo "Preparando Frontend..."
 cd /app/frontend
 
-if [ -d ".next" ]; then
-    echo "Pasta .next confirmada em $(pwd)"
-    PORT=3000 HOSTNAME=0.0.0.0 npm start
-else
-    echo "ERRO CRÍTICO: Pasta .next não existe em $(pwd). Tentando build de emergência..."
-    npm run build && PORT=3000 HOSTNAME=0.0.0.0 npm start
+if [ ! -d ".next" ]; then
+    echo "Pasta .next NÃO encontrada. Iniciando build agora..."
+    npm run build
 fi
 
-wait -n
+echo "Iniciando Frontend na porta 3000..."
+PORT=3000 HOSTNAME=0.0.0.0 npm start &
+
+# 3. Esperar processos (Sem o -n para evitar erro de shell)
+echo "Sistema online. Aguardando processos..."
+wait
