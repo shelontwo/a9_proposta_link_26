@@ -19,18 +19,10 @@ const allowedOrigins = [
 ].filter(Boolean); // Remove valores nulos ou vazios
 
 app.use(cors({
-  origin: function (origin, callback) {
-    // Permite requisições sem origem (como mobile apps ou curl)
-    if (!origin) return callback(null, true);
-
-    if (allowedOrigins.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error('Não permitido pela política de CORS'));
-    }
-  },
-  credentials: true
+  origin: allowedOrigins,
+  credentials: true // Necessário se você for usar cookies no futuro
 }));
+
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(session({
@@ -189,7 +181,7 @@ app.post('/auth/logout', (req, res) => {
 
 // --- ADMIN API ---
 
-app.get('/api/clients', isAuthenticated, (req, res) => {
+app.get('/api/clients', (req, res) => {
   const clients = db.getClients();
   // Sort by ID descending (most recent first, assuming ID is timestamp-based)
   const sortedClients = [...clients].sort((a, b) => b.id.localeCompare(a.id));
@@ -242,7 +234,7 @@ app.get('/api/presentations', isAuthenticated, (req, res) => {
   res.json(sortedPresentations);
 });
 
-app.get('/api/stats/summary', isAuthenticated, (req, res) => {
+app.get('/api/stats/summary', (req, res) => {
   try {
     const clients = db.getClients();
     const presentations = db.getPresentations();
@@ -270,18 +262,18 @@ app.post('/api/presentations', isAuthenticated, (req, res) => {
   res.json(presentation);
 });
 
-app.put('/api/presentations/:id', isAuthenticated, (req, res) => {
+app.put('/api/presentations/:id', (req, res) => {
   const presentation = db.updatePresentation(req.params.id, req.body);
   if (presentation) res.json(presentation);
   else res.status(404).json({ error: 'Presentation not found' });
 });
 
-app.delete('/api/presentations/:id', isAuthenticated, (req, res) => {
+app.delete('/api/presentations/:id', (req, res) => {
   db.deletePresentation(req.params.id);
   res.json({ success: true });
 });
 
-app.get('/api/stats/:token', isAuthenticated, (req, res) => {
+app.get('/api/stats/:token', (req, res) => {
   const { token } = req.params;
   const logs = db.getLogsByToken(token);
   const presentation = db.getPresentationByToken(token);

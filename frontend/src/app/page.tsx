@@ -42,9 +42,9 @@ export default function Home() {
             </Link>
           )}
 
-          <Link href="/pub/preview" className="px-10 py-5 rounded-2xl border border-white/10 text-white hover:bg-white/5 transition-all font-bold text-xl">
+          {/* <Link href="/pub/preview" className="px-10 py-5 rounded-2xl border border-white/10 text-white hover:bg-white/5 transition-all font-bold text-xl">
             Ver Demo Pública
-          </Link>
+          </Link> */}
         </div>
 
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 gap-8 text-left border-t border-white/5">
