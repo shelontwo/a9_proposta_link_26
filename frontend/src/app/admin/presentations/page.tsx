@@ -202,7 +202,7 @@ export default function PresentationsPage() {
             <label className="block text-xs uppercase text-brand-gray mb-1">Link da apresentação (público)</label>
             <input
               type="url"
-              placeholder="https://.../apresentacao.pdf"
+              placeholder="Link da apresentação do docs em modo público de visualização"
               value={formData.pdfUrl}
               onChange={e => setFormData({ ...formData, pdfUrl: e.target.value })}
               className="w-full bg-black/50 border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-brand-neon"
