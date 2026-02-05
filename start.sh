@@ -1,20 +1,14 @@
 #!/bin/bash
-source ~/.nvm/nvm.sh
-nvm use v22.11.0 || nvm install v22.11.0
 
-# Start Backend
-echo "Starting Backend..."
-cd backend
+echo "Instalando/Iniciando processos..."
+
+# Backend
+cd /app/backend
 npm start &
-BACKEND_PID=$!
 
-# Start Frontend
-echo "Starting Frontend..."
-cd ../frontend
-npm run dev &
-FRONTEND_PID=$!
+# Frontend
+cd /app/frontend
+# O --host é vital para o Easypanel conseguir acessar a porta
+npm run dev -- --host 0.0.0.0 &
 
-# Trap to kill both on exit
-trap "kill $BACKEND_PID $FRONTEND_PID" EXIT
-
-wait
+wait -n
