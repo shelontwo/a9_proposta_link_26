@@ -2,9 +2,6 @@
 
 echo "Iniciando sistema..."
 
-# O Easypanel injeta as variáveis de ambiente em todos os processos
-# iniciados a partir daqui.
-
 # Backend
 cd /app/backend
 echo "Iniciando Backend na porta $PORT..."
@@ -15,7 +12,7 @@ sleep 3
 # Frontend
 cd /app/frontend
 echo "Iniciando Frontend..."
-# Adicionamos o --host para o Next.js aceitar conexões externas do Easypanel
-npm run dev -- --host 0.0.0.0 &
+# Usamos HOSTNAME=0.0.0.0 para permitir que o Easypanel acesse o container
+HOSTNAME=0.0.0.0 npm run dev &
 
 wait -n
