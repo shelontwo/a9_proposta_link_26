@@ -205,7 +205,7 @@ export default function ViewerPage() {
     return (
       <div className="min-h-screen bg-brand-black flex flex-col items-center justify-center p-4">
         <div className="w-16 h-16 border-4 border-brand-neon border-t-transparent rounded-full animate-spin"></div>
-        <p className="mt-6 text-brand-gray animate-pulse font-medium tracking-widest uppercase text-xs">Preparando Experiência...</p>
+        <p className="mt-6 text-brand-gray animate-pulse font-medium tracking-widest uppercase text-xs">Acessando...</p>
       </div>
     );
   }
@@ -240,12 +240,12 @@ export default function ViewerPage() {
         <div className="z-10 w-full max-w-5xl mb-6 flex justify-between items-end">
           <div>
             <h1 className="text-2xl font-black text-white">{presentation?.title}</h1>
-            <p className="text-brand-gray text-xs uppercase tracking-widest font-bold mt-1">
+            {/* <p className="text-brand-gray text-xs uppercase tracking-widest font-bold mt-1">
               Visualização Segura • {presentation?.clientId ? 'Link Exclusivo' : 'Preview'}
-            </p>
+            </p> */}
           </div>
           <div className="flex items-center gap-4 bg-brand-darkgray/50 backdrop-blur-xl px-4 py-2 rounded-2xl border border-white/5">
-            <span className="text-white font-bold text-sm">Pág {currentPage} / {totalPages}</span>
+            <span className="text-white font-bold text-sm">Página {currentPage} / {totalPages}</span>
           </div>
         </div>
       )}
@@ -320,11 +320,22 @@ export default function ViewerPage() {
       {/* Footer Branding - Adjusted with A9 Logo */}
       {!isFullscreen && (
         <div className="mt-24 z-10 flex flex-col items-center gap-2 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-700">
-          <div className="flex items-center gap-3">
-            <img src="https://framerusercontent.com/images/PzCl0ZZKL1UcqxhMTTRf2szX0XU.svg?width=222&height=64" alt="A9 Logo" className="h-6 w-auto" />
+          <a
+            href="https://a9p.com.br"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+          >
+            <img
+              src="https://framerusercontent.com/images/PzCl0ZZKL1UcqxhMTTRf2szX0XU.svg?width=222&height=64"
+              alt="A9 Logo"
+              className="h-6 w-auto"
+            />
             <div className="w-[1px] h-4 bg-white/20" />
-            <span className="text-[10px] font-black uppercase tracking-[0.4em] text-white">A9 Educação</span>
-          </div>
+            <span className="text-[10px] font-black uppercase tracking-[0.4em] text-white">
+              A9 Educação
+            </span>
+          </a>
         </div>
       )}
     </div>

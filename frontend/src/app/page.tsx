@@ -26,7 +26,7 @@ export default function Home() {
         </h1>
 
         <p className="text-brand-gray text-xl md:text-2xl max-w-2xl mx-auto leading-relaxed">
-          Transforme suas apresentações em dados acionáveis. Integre engajamento real diretamente ao seu CRM.
+          Transforme suas apresentações em dados acionáveis.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div className="space-y-2">
             <h3 className="text-white font-bold text-lg">Sync Automático</h3>
-            <p className="text-brand-gray text-sm">Feedback instantâneo no card do negócio no Ploomes CRM.</p>
+            <p className="text-brand-gray text-sm">Feedback a cada 5 segundos.</p>
           </div>
         </div>
       </div>

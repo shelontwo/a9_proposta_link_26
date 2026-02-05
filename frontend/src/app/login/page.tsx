@@ -51,7 +51,12 @@ function LoginContent() {
       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-900 via-brand-black to-brand-black z-0 pointer-events-none opacity-50" />
       <div className="z-10 w-full max-w-md bg-brand-darkgray p-8 rounded-3xl border border-white/10 shadow-glow relative">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-brand-black border-4 border-brand-neon rounded-full flex items-center justify-center shadow-glow">
-          <span className="text-3xl font-bold text-brand-neon">A9</span>
+          {/* <span className="text-3xl font-bold text-brand-neon">A9</span> */}
+          <img
+            src="https://framerusercontent.com/images/PzCl0ZZKL1UcqxhMTTRf2szX0XU.svg?width=222&height=64"
+            alt="A9 Logo"
+            className="h-4 w-auto"
+          />
         </div>
         <div className="mt-8 text-center mb-8">
           <h1 className="text-3xl font-bold text-white mb-2">Bem-vindo</h1>

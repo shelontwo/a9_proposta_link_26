@@ -71,7 +71,11 @@ export default function AdminLayout({
               <ShieldCheck className="text-black" size={24} />
             </div>
             <h1 className="text-xl font-bold text-white tracking-tighter">
-              A9<span className="text-brand-neon">Admin</span>
+              <img
+                src="https://framerusercontent.com/images/PzCl0ZZKL1UcqxhMTTRf2szX0XU.svg?width=222&height=64"
+                alt="A9 Logo"
+                className="h-9 ml-3 w-auto"
+              />
             </h1>
           </div>
 

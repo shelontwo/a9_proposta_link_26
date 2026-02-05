@@ -210,7 +210,7 @@ export default function PresentationsPage() {
             />
           </div>
 
-          <div className="md:col-span-2">
+          {/* <div className="md:col-span-2">
             <label className="block text-xs uppercase text-brand-gray mb-1">ID do Negócio no Ploomes (Opcional)</label>
             <input
               type="text"
@@ -220,7 +220,7 @@ export default function PresentationsPage() {
               className="w-full bg-black/50 border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-brand-neon"
             />
             <p className="text-xs text-brand-gray mt-1">Se preenchido, enviaremos atualizações para este negócio quando a apresentação for visualizada.</p>
-          </div>
+          </div> */}
 
           <div className="md:col-span-2 flex justify-end mt-4">
             <button type="submit" className="bg-brand-neon text-black font-bold py-3 px-6 rounded-lg hover:shadow-glow transition-all">
