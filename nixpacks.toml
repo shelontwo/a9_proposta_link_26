@@ -8,5 +8,10 @@ cmds = [
   "chmod +x start.sh"
 ]
 
+[phases.build]
+cmds = [
+  "cd frontend && npm run build"
+]
+
 [start]
 cmd = "bash start.sh"
