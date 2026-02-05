@@ -4,13 +4,13 @@ nvm use v22.11.0 || nvm install v22.11.0
 
 # Start Backend
 echo "Starting Backend..."
-cd /app/backend && npm start &
+cd /backend && npm start &
 npm start &
 BACKEND_PID=$!
 
 # Start Frontend
 echo "Starting Frontend..."
-cd /app/frontend && npm run dev &
+cd /frontend && npm run dev &
 npm run dev &
 FRONTEND_PID=$!
 
